@@ -1,0 +1,11 @@
+.nostyle {
+  list-style-type: none;
+}
+
+p.lead {
+  margin-top: 50px;
+}
+
+.jumbotron {
+  padding-right: 100px;
+}
