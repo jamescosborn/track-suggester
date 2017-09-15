@@ -13,7 +13,7 @@ $(document).ready(function() {
     else if (whichTeam === "2" && whichLang === "2") {
       var thisTrack = "PHP/Drupal"
     }
-    $("#track").append(thisTrack);
+    $("#track").text(thisTrack);
     $("#trackSuggestion").show();
 
   event.preventDefault();
