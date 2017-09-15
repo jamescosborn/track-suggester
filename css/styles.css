@@ -23,3 +23,8 @@ button {
 #trackSuggestion {
   display: none;
 }
+
+h1 {
+  font-family: 'Play', sans-serif;
+  margin-left: 33px;
+}

@@ -5,6 +5,7 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
     <title>Track Suggester</title>
   </head>
   <body>
@@ -18,40 +19,40 @@
     <div class="container">
       <form id="trackSuggester">
   <!-- Question 1 -->
-        <h3>Question 1: Are you interested more in the front end or back end?</h3>
+        <h3>Question 1: Are you interested more in the front-end or back-end?</h3>
         <select class="form-control" id="whichEnd">
-          <option value="1">Front End -- I like to put my own personal style on things and make them look great</option>
-          <option value="2">Back End -- I like focus on things behind the scenes and making things work.</option>
+          <option value="1">Front-End -- I like to put my own visual style on things and make them look great.</option>
+          <option value="2">Back-End -- I like operate behind the scenes and focus on making things work correctly.</option>
         </select>
   <!-- Question 2 -->
         <h3>Question 2: Are you interested more in working for larger companies, or smaller start-ups?</h3>
         <select class="form-control" id="whichTeam">
-          <option value="1">Larger Companies -- I value job securitt, and like to work on really big projects and teams.</option>
-          <option value="2">Smaller Companies -- I like working with people with fresh new ideas and smaller projects and teams.</option>
+          <option value="1">Larger Companies -- I value job security, and I like to work on really big projects and teams.</option>
+          <option value="2">Smaller Companies -- I like working with energized people with fresh new ideas on smaller projects and teams.</option>
         </select>
   <!-- Question 3 -->
         <h3>Question 3: Do you like to do things the way they've been done for a long time, or take new, different approaches?</h3>
         <select class="form-control" id="whichLang">
-          <option value="1">Traditional Languages -- The old ways are the best. There's a reason they've been around so long.</option>
+          <option value="1">Traditional Languages -- The old ways are the best. There's a reason they've been around for so long.</option>
           <option value="2">New Languages -- I've always been on the cutting edge. I want to learn the newest languages first.</option>
         </select>
   <!-- Question 4 -->
         <h3>Question 4: Do you prefer PCs or Macs?</h3>
         <select class="form-control" id="whichCpu">
           <option value="1">PCs -- I enjoy Windows and other Microsoft products.</option>
-          <option value="2">Macs -- I'm not a huge fan of Windows or Microsoft, and in general I prefer Macs.</option>
+          <option value="2">Macs -- I'm not a huge fan of Windows or Microsoft, and I generally prefer Macs.</option>
         </select>
   <!-- Question 5 -->
         <h3>Question 5: Huey Lewis and the News or Genesis?</h3>
         <select class="form-control" id="whichMusic">
           <option value="1">Huey Lewis -- It's hip to be square.</option>
-          <option value="2">Genesis -- I love Phil Collins, the man and the music. I celebrate his entire discography, every day.</option>
+          <option value="2">Genesis -- I love Phil Collins, the man and the music. I celebrate his entire discography, every day of my life.</option>
         </select>
         <button type="submit" class="btn btn-success">Which track is best for me?</button>
       </form>
       <div id="trackSuggestion">
       <div class="jumbotron">
-        <h5><p>Suggested track: <span id="track"></span>. However, learning any language is beneficial, and a doorway to other languages.</p></h5>
+        <h5><p>Suggested track: <strong><span id="track"></span></strong>. However, learning any language is beneficial, and a doorway to other languages.</p></h5>
     </div>
   </body>
 </html>
