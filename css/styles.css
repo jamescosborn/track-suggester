@@ -8,6 +8,7 @@ p.lead {
 
 .jumbotron {
   padding-right: 100px;
+  margin-top: -25px;
 }
 
 h3 {
@@ -27,4 +28,8 @@ button {
 h1 {
   font-family: 'Play', sans-serif;
   margin-left: 33px;
+}
+
+body {
+  background-color: lightblue;
 }
