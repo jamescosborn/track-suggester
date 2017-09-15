@@ -4,13 +4,13 @@ $(document).ready(function() {
     var whichLang = $("#whichLang").val();
     var whichCpu = $("#whichCpu").val();
 
-    if (whichLang === "1" && whichCpu === "1") {
+    if (whichLang === "2" && whichCpu === "2") {
       var thisTrack = "C#/.Net"
     }
-    else if (whichLang === "2" && whichCpu === "2") {
+    else if (whichLang === "3" && whichCpu === "3") {
       var thisTrack = "Ruby/Rails"
     }
-    else if (whichTeam === "2" && whichLang === "2") {
+    else if (whichTeam === "3" && whichLang === "3") {
       var thisTrack = "PHP/Drupal"
     }
     $("#track").text(thisTrack);

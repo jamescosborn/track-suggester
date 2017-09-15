@@ -4,6 +4,7 @@
 
 p.lead {
   margin-top: 50px;
+  margin-right: 100px;
 }
 
 .jumbotron {
@@ -32,4 +33,8 @@ h1 {
 
 body {
   background-color: lightblue;
+}
+
+.dragonPicture {
+  float: right;
 }
