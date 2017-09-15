@@ -8,14 +8,27 @@
     <title>Track Suggester</title>
   </head>
   <body>
-
-      <div class="jumbotron">
-      <h1 class="display-3">Epicodus Track Suggester</h1>
-      <ul class="nostyle">
-        <li><p class="lead">Epicodus offers full-time courses in languages such as C#, PHP, Javascript, .NET, Ruby, Rails, React, and more. Every track starts with Introduction to Programming, and includes an advanced JavaScript course, as well as two language-specific courses — four five-week sessions in total. In addition, students complete two weeks of job and internship prep and finish their studies with a five-week internship.</li></p>
-        <hr class="my-4">
-        <li><p>To help you better determine which full-time course, or "track," might be best for you, Epicodus would like to ask you the following questions:</li></p>
-        </div>
+    <div class="jumbotron">
+    <h1 class="display-3">Epicodus Track Suggester</h1>
+    <ul class="nostyle">
+      <li><p class="lead">Epicodus offers full-time courses in languages such as C#, PHP, Javascript, .NET, Ruby, Rails, React, and more. Every track starts with Introduction to Programming, and includes an advanced JavaScript course, as well as two language-specific courses — four five-week sessions in total. In addition, students complete two weeks of job and internship prep and finish their studies with a five-week internship.</li></p>
+      <hr class="my-4">
+      <li><p>To help you better determine which full-time course, or "track," might be best for you, Epicodus would like to ask you the following questions:</li></p>
+    </div>
+    <div class="container">
+      <h2>Question 1: Are you interested more in the front end or back end?</h2>
       <form id="trackSuggester">
+        <div class="radio">
+          <label>
+            <input type="radio" name="whichEnd" value="frontEnd" checked>
+            Front End -- I like styling pages and making them look great.
+          </label>
+        </div>
+        <div class="Radio">
+          <label>
+            <input type="radio" name="whichEnd" value="backEnd">
+            Back End -- I like working on the technical aspects behind the scenes.
+          </label>
+        </div>
   </body>
 </html>
