@@ -13,6 +13,9 @@ $(document).ready(function() {
     else if (whichTeam === "3" && whichLang === "3") {
       var thisTrack = "PHP/Drupal"
     }
+    else if (whichCpu != "2") {
+      var thisTrack = "Java/Android"
+    }
     $("#track").text(thisTrack);
     $("#trackSuggestion").show();
 
