@@ -20,6 +20,6 @@ button {
   margin-bottom: 25px;
 }
 
-.trackSuggestion {
+#trackSuggestion {
   display: none;
 }
