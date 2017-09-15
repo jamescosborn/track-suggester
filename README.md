@@ -26,11 +26,13 @@ _-Resizing the browser window to be very narrow will cause the dragon.png in the
 
 _-Using an unsupported browser (something other than Chrome) may cause unintended issues._
 
+_-If some boxes are left blank, results (suggestedTrack) may display a blank value. User can fill in blank boxes and resubmit without having to refresh the page._
+
 ## Support and contact details
 
 _All bugs and feedback are encouraged to be emailed to [jamescarlosborn@gmail.com](mailto:jamescarlosborn@gmail.com)._
 
-## Technologies USed
+## Technologies Used
 
 _Used HTML to design the webpage, CSS and BootStrap for styling, and JS and JQuery to make the form evaluate answers and return a tailored response._
 

@@ -17,7 +17,7 @@ $(document).ready(function() {
       var thisTrack = "Java/Android"
     }
     $("#track").text(thisTrack);
-    $("#trackSuggestion").show();
+    $("#trackSuggestion").slideDown();
 
   event.preventDefault();
  });
