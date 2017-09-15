@@ -6,7 +6,7 @@
 
 ## Description
 
-_This is a website designed to help prospective Epicodus students find a course that matches their interests and background. The website asks the user a series of 5 questions, and based upon the answers to those questions recommends 1 of 4 tracks offered at Epicodus. Possible track suggestions include: C#/.Net, Ruby/Rails, PHP/Drupal, and Java/Android. Questions 1 and 5 do not affect the track suggested, as experience and musical taste isn't too important in matching a track to someone's background. The user is able to change their answers and hit the submit button multiple times to see how suggestions differ based on the answers given._
+_This is a website designed to help prospective Epicodus students find a course that matches their interests and background. The website asks the user a series of 5 questions, and based upon the answers to those questions recommends 1 of 4 tracks offered at Epicodus. Possible track suggestions include: C#/.Net, Ruby/Rails, PHP/Drupal, and Java/Android. Questions 1 and 5 do not affect the track suggested, as front-end/back-end and experience isn't the most important in matching a track to someone's background. The user is able to change their answers and hit the submit button multiple times to see how suggestions differ based on the answers given._
 
 ## Setup/Installation Requirements
 
